@@ -4,7 +4,7 @@ import cvzone
 import YB_Pcb_Car
 from cvzone.ColorModule import ColorFinder
 
-time.sleep(3)
+
 def CTime(Time, Type=None):
 
     if  Time >= 1.5: TurnTime = 2
