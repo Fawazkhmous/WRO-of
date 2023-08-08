@@ -34,7 +34,7 @@ LineCounter, NumOfLines = 0, 12
 car.Ctrl_Servo(1, Straight)
 time.sleep(0.3)
 
-stfd = time.time()
+stfd = time.time() # start time for calculating the distance between the robot and the first line it detects
 
 while True:
     try:
@@ -50,7 +50,7 @@ while True:
             Turn, Blue_Flage = True, True
             LineCounter += 1
 
-            stft = time.time()
+            stft = time.time() # start time for calculating the turning time of the robot
 
 
         elif OrangeColor and Blue_Flage is False and Turn is False:
